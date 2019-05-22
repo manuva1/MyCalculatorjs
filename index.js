@@ -23,8 +23,6 @@ app.get('/',function(req,res){
 app.post('/',function(req,res){
 
   //.means stuff on the request object ie(req.)
-  console.log(req.body);
-  console.log(req.body.num1);
 
   var num1 = Number(req.body.num1);
   var num2 = Number(req.body.num2);
