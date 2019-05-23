@@ -1,15 +1,29 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>BMI Calculator</title>
-  </head>
-  <body>
-    <h1>BMI Calculator</h1>
-    <form class="" action="/bmiCalculator" method="POST">
-      <input type="text" name='weight' placeholder="weight">
-      <input type="text" name="height" placeholder="height">
-      <button type="submit" name="submit">Calculate</button>
-    </form>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>BMI Calculator</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <h1>BMI Calculator</h1>
+
+  <div class='main-window'>
+    <div class='main-content'>
+      <form class="" action="/bmiCalculator" method="POST">
+        <h2>Weight Value</h2>
+        <input type="text" name='weight' placeholder="weight">
+        <br />
+        <h2>Height Value</h2>
+        <input type="text" name="height" placeholder="height">
+        <br />
+        <button type="submit" name="submit">Calculate</button>
+      </form>
+    </div>
+  </div>
+
+</body>
+
 </html>

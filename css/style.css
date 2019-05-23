@@ -1,7 +1,23 @@
 body {
-  background-color: #8db3ef;
+  background-color: #2327ef;
 }
 
 h1 {
-  color: white;
+  text-align: center;
+}
+
+.main-window {
+  margin: auto 30%;
+  position: relative;
+}
+
+.main-content {
+  background-color: #327aef;
+  margin: 10% auto;
+  text-align: center;
+  border-radius: 25px;
+}
+
+.main-content button {
+  margin-top: 10px;
 }
