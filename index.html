@@ -1,19 +1,33 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>MYcALC</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    <h1>CALCULATOR</h1>
+
+<head>
+  <meta charset="utf-8">
+  <title>MYcALC</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <h1>CALCULATOR</h1>
+
+<div class='main-window'>
+  <div class='main-content'>
     <!--  send this to the server,
-    server will respond back info or
-    action based on response-->
+      server will respond back info or
+      action based on response-->
     <form action='/' method='POST'>
+      <h2>First Number</h2>
       <input type="text" name="num1" value="" placeholder='first numer'>
+      <br />
+      <h2>Second Number</h2>
       <input type="text" name="num2" value="" placeholder="second number">
+      <br />
       <button type="submit" name="submit">calculate</button>
     </form>
-  </body>
+  </div>
+</div>
+
+
+</body>
+
 </html>
